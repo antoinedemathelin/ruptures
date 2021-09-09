@@ -208,7 +208,7 @@ class BottomUp(BaseEstimator):
             epsilon (float): reconstruction budget (>0)
 
         Returns:
-            list: sorted list of breakpoints
+            list: sorted list of breakpoins
         """
         self.fit(signal)
         return self.predict(n_bkps=n_bkps, pen=pen, epsilon=epsilon)
